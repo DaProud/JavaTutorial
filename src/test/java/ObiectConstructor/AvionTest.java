@@ -17,6 +17,8 @@ public class AvionTest {
         Avion avion3 = new Avion("Pasageri", "Boeing", "B-130",
             400, "Eco", 200);
         avion3.prezentareAvion(); // test
+
+        // dupa ce am creat al doilea branch
     }
 
 }
