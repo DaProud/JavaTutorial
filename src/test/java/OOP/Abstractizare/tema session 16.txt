@@ -1,0 +1,4 @@
+
+De implementat ceva asemanator - e.g. Clase cu Animale folosind abstractizare
+eg scoate sunet()...:) si proprietati specifice - la clasa/subclase ;)
+interfete
