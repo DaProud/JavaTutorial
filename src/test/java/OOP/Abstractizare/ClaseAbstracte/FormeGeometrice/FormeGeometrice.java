@@ -1,4 +1,4 @@
-package OOP.Abstractizare.ClaseAbstracte;
+package OOP.Abstractizare.ClaseAbstracte.FormeGeometrice;
 
 public abstract class FormeGeometrice {
 

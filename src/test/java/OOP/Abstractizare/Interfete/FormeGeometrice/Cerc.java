@@ -1,4 +1,4 @@
-package OOP.Abstractizare.Interfete;
+package OOP.Abstractizare.Interfete.FormeGeometrice;
 
 public class Cerc implements FormeGeometrice, FormeGeometrice2 {
     private int raza;

@@ -1,8 +1,8 @@
-package OOP.Abstractizare.ClaseAbstracte;
+package OOP.Abstractizare.Interfete.FormeGeometrice;
 
 import org.testng.annotations.Test;
 
-public class OOPAbstractizareTest {
+public class OOPInterfeteTest {
 
     @Test
     public void metodaTest() {
