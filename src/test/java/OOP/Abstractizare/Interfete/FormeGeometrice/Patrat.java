@@ -1,4 +1,4 @@
-package OOP.Abstractizare.Interfete;
+package OOP.Abstractizare.Interfete.FormeGeometrice;
 
 public class Patrat implements FormeGeometrice {
     private int latura;
