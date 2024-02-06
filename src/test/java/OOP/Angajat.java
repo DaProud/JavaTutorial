@@ -2,7 +2,16 @@ package OOP;
 
 public class Angajat extends Persoana implements AngajatInt {
 
-    private String firma;
+    // Modificatri de acces:
+    // public = codul se poate accesa de oriunde si de orice clasa
+    // private = codul se poate accesa doar din clasa unde s-a scris codul
+    // protected = codul se poate acccesa doar din pachetul in care s-a scris codul, dar si de
+    // catre subclase (concepul OOP de mostenire)
+    // default = codul se poate accesa doar din pachetul din care s-a scris codul
+
+    // Daca nu se specifica un modificator de access, intra pe default
+
+    protected String firma;
     private Integer experienta;
     private Integer zileConcediu;
 

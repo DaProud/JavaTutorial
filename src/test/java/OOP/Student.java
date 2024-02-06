@@ -1,6 +1,9 @@
 package OOP;
 
-public class Student extends Persoana implements StudentInt{
+import OOP.Persoana;
+import OOP.StudentInt;
+
+public class Student extends Persoana implements StudentInt {
 
     private String facultate;
     private String an;
