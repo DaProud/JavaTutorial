@@ -1,6 +1,6 @@
 package OOP;
 
-public class Angajat extends Persoana {
+public class Angajat extends Persoana implements AngajatInt {
 
     private String firma;
     private Integer experienta;
@@ -64,5 +64,25 @@ public class Angajat extends Persoana {
 
     public void setZileConcediu(Integer zileConcediu) {
         this.zileConcediu = zileConcediu;
+    }
+
+    @Override
+    public void mergeLaMunca() {
+        System.out.println("Angajatul merge la munca");
+    }
+
+    @Override
+    public void primesteSalariu() {
+        System.out.println("Angajatul primeste salariu");
+    }
+
+    @Override
+    public void mergeInPauza() {
+        System.out.println("Angajatul merge in pauza");
+    }
+
+    @Override
+    public void prezintaDemisie() {
+        System.out.println("Angajatul nu pleaca din firma");
     }
 }

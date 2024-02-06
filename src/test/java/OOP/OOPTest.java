@@ -6,7 +6,7 @@ public class OOPTest {
 
     @Test
     public void metodaTest(){
-//        Student Cristi = new Student("Pop", "Cristi", 25, "UBB", "2", true);
+        Student Cristi = new Student("Pop", "Cristi", 25, "UBB", "2", true);
 //        Cristi.infoStudent();
 //        Cristi.mananca();
 
@@ -19,6 +19,11 @@ public class OOPTest {
         Tudor.marire();
         Tudor.marire(15);
         Tudor.marire("Sef");
+
+//        AngajatStudent Marcel = new AngajatStudent();
+//        Marcel.
+
+
     }
 
 }
